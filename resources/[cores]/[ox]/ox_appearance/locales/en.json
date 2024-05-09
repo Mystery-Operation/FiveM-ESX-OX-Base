@@ -1,0 +1,17 @@
+{
+    "wardrobe": "Wardrobe",
+    "outfits": "Outfits",
+    "save": "Opslaan",
+    "save_outfit": "Sla nieuwe outfit op",
+    "wear": "Draag %s",
+    "update": "Update %s",
+    "delete": "Verwijder %s",
+    "outfit_name": "Outfit naam",
+    "new_outfit": "Nieuwe Outfit",
+    "rename_outfit": "Hernoemen van Outfit",
+    "confirm": "Accepteren",
+    "open_shop": "[E] Open Shop",
+    "clothing_blip": "Kleding winkel",
+    "barber_blip": "Kapper",
+    "tattoo_blip": "Tattoo studio"
+}

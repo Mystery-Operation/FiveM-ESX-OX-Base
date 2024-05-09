@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  user-select: none;
+  display: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.background {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+
+  background: rgb(36,81,105);
+  background: linear-gradient(90deg, rgba(36,81,105,1) 0%, rgba(36,81,105,0.7063200280112045) 35%, rgba(36,81,105,0) 70%);
+
+  z-index: 1000;
+}
+
+.alert {
+  padding: 10px;
+  margin-top: 14vh;
+  border-radius: 7px;
+  background-color: #f44336;
+  color: white;
+}
+
+.main-identity-container {
+  position: absolute;
+
+  width: 37vh;
+  height: 100%;
+  opacity: 0.95;
+
+  top: 50%;
+  left: 3.25vh;
+  transform: translateY(-50%);
+
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  margin: 5px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1001;
+
+  color: #ffffff;
+}
+
+#logo {
+  position: relative;
+
+  width: 14vh;
+  height: 6vh;
+
+  margin-top: 5vh;
+}
+
+.main-identity-text-container.title {
+  font-size: 2.4vh;
+  padding: 5px;
+  padding-top: 5vh;
+  line-height: 0.5vh;
+  letter-spacing: 0.1vh;
+}
+
+.main-identity-text-container.desc {
+  font-size: 1.6vh;
+  padding: 5px;
+  margin-bottom: 5vh;
+  letter-spacing: 0.05vh;
+}
+
+/* Input box Title */
+
+#register div {
+  padding-bottom: 5px;
+  font-size: 1.4vh;
+  font-weight: 600;
+}
+
+#register input {
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  padding: 15px;
+  padding-left: 0;
+  margin-bottom: 15px;
+
+  font-size: 1.6vh;
+  text-align: left;
+  text-indent: 1vh;
+
+  color: #ffffff;
+  background-color: rgba(26, 63, 83, 0.8);
+}
+
+::-webkit-datetime-edit {
+  text-indent: 0.5vh;
+  color: #b8cdd3;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4vh;
+}
+
+::-webkit-calendar-picker-indicator {
+  font-size: 1.9vh;
+}
+
+::-webkit-calendar-picker-indicator:hover {
+  opacity: 0.6;
+}
+
+#register input::placeholder {
+  position: absolute;
+  color: #b8cdd3;
+  font-size: 1.25vh;
+  font-weight: 100;
+  opacity: 1;
+  text-indent: 1vh;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Gender */
+
+.radio-toolbar {
+  position: relative;
+
+  width: 100%;
+  height: fit-content;
+}
+
+.radio-toolbar-item {
+  float: left;
+  position: relative;
+
+  width: 8vh;
+  height: 7.5vh;
+
+  transform: scale(0.95);
+
+  border-radius: 5px;
+  background-color: rgba(21, 46, 62, 0.9);
+
+  transition: all 0.3s ease-in-out;
+}
+
+.radio-toolbar-item:first-child {
+  margin-right: 1vh;
+}
+
+.radio-toolbar-item:hover {
+  border: solid 1.5px white;
+}
+
+.radio-toolbar-item.small:hover {
+  border: solid 1.5px white;
+}
+
+.radio-toolbar-item i {
+  position: relative;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 4vh;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.radio-toolbar-item.small {
+  transform: scale(0.95);
+}
+
+.radio-toolbar-item.checked {
+  border: solid 1.5px white;
+  transform: scale(1);
+}
+
+.radio-toolbar-item.checked i {
+  color: #ffffff;
+}
+
+/* Register Button */
+
+#register button {
+  display: block;
+  position: relative;
+
+  height: 30px;
+  width: 100%;
+
+  transform: scale(1);
+
+  padding: 3vh;
+  margin-top: 16vh;
+  font-size: 2.1vh;
+  font-weight: 600;
+  line-height: 0;
+  outline: none;
+  border: none;
+  border-radius: 0.4vh;
+  background-color: rgb(20, 50, 66);
+  color: #ffffff;
+
+  transition: all 0.3s ease-in-out;
+}
+
+#register button:hover {
+  border: solid 1.5px white;
+  transform: scale(0.95);
+}
